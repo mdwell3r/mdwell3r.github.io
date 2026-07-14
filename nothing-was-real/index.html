@@ -1,3 +1,4 @@
+Click inside the code editor, press Cmd+A to select everything, then Delete, then paste this entire block in:
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -6,40 +7,27 @@
 <title>Nothing Was Real Until It Was Documented — A Darkly Comic Campus Satire</title>
 <meta name="description" content="A darkly comic campus satire about a Graduate Program Director who put it all in writing — the most dangerous thing anyone can do at a university." />
 
-<!-- ============================================================
-     CANONICAL TAG
-     This tells Google "this page is the authoritative URL" for
-     this content. Point it at wherever you actually host this
-     file. Replace the placeholder domain below once you know it.
-     ============================================================ -->
 <link rel="canonical" href="https://mdwell3r.github.io/nothing-was-real/" />
 
-<!-- Open Graph / social preview tags -->
 <meta property="og:type" content="book" />
 <meta property="og:title" content="Nothing Was Real Until It Was Documented" />
 <meta property="og:description" content="A darkly comic campus satire about a Graduate Program Director who put it all in writing — the most dangerous thing anyone can do at a university." />
 <meta property="og:url" content="https://mdwell3r.github.io/nothing-was-real/" />
 <meta property="og:site_name" content="Nothing Was Real Until It Was Documented" />
+<meta property="og:image" content="https://mdwell3r.github.io/nothing-was-real/cover.jpg" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Nothing Was Real Until It Was Documented" />
 <meta name="twitter:description" content="A darkly comic campus satire about a Graduate Program Director who put it all in writing." />
+<meta name="twitter:image" content="https://mdwell3r.github.io/nothing-was-real/cover.jpg" />
 
-<!-- ============================================================
-     STRUCTURED DATA (JSON-LD)
-     This is the part that actually helps Google understand
-     "this page is the official page for this specific book,"
-     and gives it a shot at surfacing as its own result — a much
-     more reliable fix than hreflang tags on a page you don't own.
-     Update the "url" fields with your real Amazon links, and add
-     the ISBN once you have it.
-     ============================================================ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
   "name": "Nothing Was Real Until It Was Documented",
   "alternateName": "Nothing Was Real Until It Was Documented and Nothing Documented Was Ever Quite Real",
+  "image": "https://mdwell3r.github.io/nothing-was-real/cover.jpg",
   "author": {
     "@type": "Person",
     "name": "M. D. Weller"
@@ -152,6 +140,15 @@
     color: #777;
     margin-top: 0.75rem;
   }
+  .cover {
+    display: block;
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 2rem;
+    border-radius: 3px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  }
   section.blurb p {
     margin: 0 0 1.2rem;
   }
@@ -176,13 +173,12 @@
 <div class="wrap">
 
   <header class="hero">
+    <img class="cover" src="cover.jpg" alt="Book cover of Nothing Was Real Until It Was Documented by M. D. Weller" />
     <div class="kicker">A Darkly Comic Campus Satire</div>
     <h1>Nothing Was Real Until It Was Documented</h1>
     <p class="subtitle">A Graduate Program Director puts it all in writing — the most dangerous thing anyone can do at a university.</p>
 
     <div class="buy-row">
-      <!-- Universal book link: geo-redirects each reader to their own
-           local storefront automatically. -->
       <a class="buy-btn" href="https://books2read.com/u/bpBVqk">Buy the Ebook</a>
       <a class="buy-btn secondary" href="#about">About the Book</a>
     </div>
@@ -205,5 +201,4 @@
 
 </body>
 </html>
-
 
